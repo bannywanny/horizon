@@ -19,16 +19,14 @@ html {
 }
 
 body {
-    background-color: #000;
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), 
-        url("../img/bg-main-office.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    -ms-animation: fadein 2s;
-    -o-animation: fadein 2s;
+	background-color: #333;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.95)), url("../img/bg-main-office.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+    -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
 }
 
