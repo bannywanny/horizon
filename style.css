@@ -20,7 +20,7 @@ html {
 
 body {
     background-color: #000;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bg-main-office.jpg");
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0,0.95)), url("../img/bg-main-office.jpg")
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
